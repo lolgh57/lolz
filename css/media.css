@@ -1,0 +1,110 @@
+/* 860 */
+
+
+
+@media screen and (min-width: 769px) and (max-width: 860px){
+    .main__category__blocks {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 10px 10px;
+    }
+}
+@media screen and (min-width: 681px) and (max-width: 768px) {
+    .main__category__blocks {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1r;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px 10px;
+    }
+    .header__menu__burger{
+        display: flex;
+    }
+    .header__menu__burger span{
+        display: block;
+    }
+    .content__blocks{
+        padding: 0px 20px;
+    }
+    .side__bar{
+        display: none;
+    }
+    .main__block:nth-child(2) {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 521px) and (max-width: 680px) {
+    .main__category__blocks {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 10px 10px;
+    }
+    .main__category__block{
+        padding: 10px 6px 0px 6px;
+    }
+    .main__category__block h3 {
+        margin: 10px 0px 6px;
+        font-size: 14px;
+        color: white;
+    }
+    .header__menu__burger{
+        display: flex;
+    }
+    .header__menu__burger span{
+        display: block;
+    }
+    .content__blocks{
+        padding: 0px 20px;
+    }
+    .side__bar{
+        display: none;
+    }
+    .main__block:nth-child(2) {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 520px) {
+    .main__category__blocks {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 5px 5px;
+    }
+    .main__category__block{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        min-height: auto;
+        padding: 8px 10px;
+    }
+    .main__category__block h3{
+        display: none;
+    }
+    .main__category__block img{
+        width: 36px;
+        height: 36px;
+    }
+    .header__menu__burger{
+        display: flex;
+        right: 135px;
+    }
+    .header__menu__burger span{
+        display: block;
+    }
+    .main__category__block h3 {
+        margin: 10px 0px 6px;
+        font-size: 14px;
+        color: white;
+    }
+    .content__blocks{
+        padding: 0px 20px;
+    }
+    .side__bar{
+        display: none;
+    }
+    .main__block:nth-child(2) {
+        width: 100%;
+    }
+}
